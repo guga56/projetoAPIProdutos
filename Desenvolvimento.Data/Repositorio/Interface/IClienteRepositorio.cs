@@ -9,5 +9,6 @@ namespace Desenvolvimento.Data.Repositorio.Interface
 {
     public interface IClienteRepositorio : IGenericRepositorio<Cliente>
     {
+        List<Cliente> ListarPorCliente(int ICliente);
     }
 }

@@ -9,5 +9,6 @@ namespace Desenvolvimento.Data.Repositorio.Interface
 {
     public interface IEnderecoRepoositorio : IGenericRepositorio<Endereco>
     {
+        List<Endereco> ListarPorEndereco(int IdEndereco);
     }
 }

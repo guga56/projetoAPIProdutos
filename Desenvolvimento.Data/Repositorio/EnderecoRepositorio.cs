@@ -14,5 +14,10 @@ namespace Desenvolvimento.Data.Repositorio
         {
             throw new NotImplementedException();
         }
+
+        public List<Endereco> ListarPorEndereco(int IdEndereco)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

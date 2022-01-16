@@ -14,5 +14,10 @@ namespace Desenvolvimento.Data.Repositorio
         {
             throw new NotImplementedException();
         }
+
+        public List<Cliente> ListarPorCliente(int ICliente)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

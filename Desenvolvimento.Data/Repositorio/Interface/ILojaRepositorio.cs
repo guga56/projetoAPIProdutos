@@ -7,7 +7,8 @@ using Desenvolvimento.Entidade.Entidade;
 
 namespace Desenvolvimento.Data.Repositorio.Interface
 {
-    interface ILojaRepositorio : IGenericRepositorio<Loja>
+    public interface ILojaRepositorio : IGenericRepositorio<Loja>
     {
+        List<Loja> ListarProLoja(int IdLoja);
     }
 }

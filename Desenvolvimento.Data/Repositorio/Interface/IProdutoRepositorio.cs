@@ -9,5 +9,6 @@ namespace Desenvolvimento.Data.Repositorio.Interface
 {
     public interface IProdutoRepositorio : IGenericRepositorio<Produto>
     {
+        List<Produto> ListarPorProduto(int IdProduto);
     }
 }

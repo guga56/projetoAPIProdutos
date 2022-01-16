@@ -9,8 +9,4 @@
     <ProjectReference Include="..\Desenvolvimento.Entidade\Desenvolvimento.Entidade.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Servico\Interface\" />
-  </ItemGroup>
-
 </Project>

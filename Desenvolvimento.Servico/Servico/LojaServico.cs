@@ -5,19 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using Desenvolvimento.Data.Repositorio.Interface;
 using Desenvolvimento.Entidade.Entidade;
+using Desenvolvimento.Servico.Servico.Interface;
 
-namespace Desenvolvimento.Data.Repositorio
+namespace Desenvolvimento.Servico.Servico
 {
-    public class LojaRepositorio : GenericRepositorio<Loja>, ILojaRepositorio
+    public class LojaServico : ILojaServico
     {
-        public IEnumerable<Loja> Buscar(object id)
-        {
-            throw new NotImplementedException();
-        }
+        private readonly ILojaRepositorio IlojaRepositorio;
 
         public List<Loja> ListarProLoja(int IdLoja)
         {
-            throw new NotImplementedException();
+            return IlojaRepositorio.ListarProLoja(IdLoja);
         }
     }
 }
