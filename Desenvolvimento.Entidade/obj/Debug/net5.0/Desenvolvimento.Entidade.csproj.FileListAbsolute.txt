@@ -1,0 +1,12 @@
+C:\Desenvolver\Desenvolver\Desenvolvimento.Entidade\bin\Debug\net5.0\Desenvolvimento.Entidade.deps.json
+C:\Desenvolver\Desenvolver\Desenvolvimento.Entidade\bin\Debug\net5.0\Desenvolvimento.Entidade.dll
+C:\Desenvolver\Desenvolver\Desenvolvimento.Entidade\bin\Debug\net5.0\ref\Desenvolvimento.Entidade.dll
+C:\Desenvolver\Desenvolver\Desenvolvimento.Entidade\bin\Debug\net5.0\Desenvolvimento.Entidade.pdb
+C:\Desenvolver\Desenvolver\Desenvolvimento.Entidade\obj\Debug\net5.0\Desenvolvimento.Entidade.csproj.AssemblyReference.cache
+C:\Desenvolver\Desenvolver\Desenvolvimento.Entidade\obj\Debug\net5.0\Desenvolvimento.Entidade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenvolver\Desenvolver\Desenvolvimento.Entidade\obj\Debug\net5.0\Desenvolvimento.Entidade.AssemblyInfoInputs.cache
+C:\Desenvolver\Desenvolver\Desenvolvimento.Entidade\obj\Debug\net5.0\Desenvolvimento.Entidade.AssemblyInfo.cs
+C:\Desenvolver\Desenvolver\Desenvolvimento.Entidade\obj\Debug\net5.0\Desenvolvimento.Entidade.csproj.CoreCompileInputs.cache
+C:\Desenvolver\Desenvolver\Desenvolvimento.Entidade\obj\Debug\net5.0\Desenvolvimento.Entidade.dll
+C:\Desenvolver\Desenvolver\Desenvolvimento.Entidade\obj\Debug\net5.0\ref\Desenvolvimento.Entidade.dll
+C:\Desenvolver\Desenvolver\Desenvolvimento.Entidade\obj\Debug\net5.0\Desenvolvimento.Entidade.pdb

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Desenvolvimento.Data\Desenvolvimento.Data.csproj" />
+    <ProjectReference Include="..\Desenvolvimento.Entidade\Desenvolvimento.Entidade.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Servico\Interface\" />
+  </ItemGroup>
+
+</Project>
