@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Desenvolvimento.Data.Contexto;
 using Desenvolvimento.Data.Repositorio.Interface;
 using Desenvolvimento.Entidade.Entidade;
 
@@ -10,6 +11,8 @@ namespace Desenvolvimento.Data.Repositorio
 {
     public class LojaRepositorio : GenericRepositorio<Loja>, ILojaRepositorio
     {
+        private readonly DesenvolverAPIContexto ctx;
+
         public IEnumerable<Loja> Buscar(object id)
         {
             throw new NotImplementedException();
@@ -17,7 +20,7 @@ namespace Desenvolvimento.Data.Repositorio
 
         public List<Loja> ListarProLoja(int IdLoja)
         {
-            throw new NotImplementedException();
+            return ctx.Loja.Where(l => l.IdLoja == IdLoja).ToList();
         }
     }
 }

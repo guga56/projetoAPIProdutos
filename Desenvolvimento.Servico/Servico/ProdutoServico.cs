@@ -13,6 +13,11 @@ namespace Desenvolvimento.Servico.Servico
     {
         private readonly IProdutoRepositorio IProdutoRepositorio;
 
+        public ProdutoServico(IProdutoRepositorio _IProdutoRepositorio)
+        {
+            this.IProdutoRepositorio = _IProdutoRepositorio;
+        }
+
         public List<Produto> ListarPorProduto(int IdProduto)
         {
             return IProdutoRepositorio.ListarPorProduto(IdProduto);

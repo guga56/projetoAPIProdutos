@@ -13,6 +13,11 @@ namespace Desenvolvimento.Servico.Servico
     {
         private readonly ILojaRepositorio IlojaRepositorio;
 
+        public LojaServico(ILojaRepositorio _IlojaRepositorio)
+        {
+            this.IlojaRepositorio = _IlojaRepositorio;
+        }
+
         public List<Loja> ListarProLoja(int IdLoja)
         {
             return IlojaRepositorio.ListarProLoja(IdLoja);
